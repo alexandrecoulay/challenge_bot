@@ -5,7 +5,7 @@ const bot = new Discord.Client();
 bot.on('ready', function () {
   console.log("rolemembre")
 });
-const yourID = "308162523108999169";
+const yourID = "yourID";
 const setupCMD = "!membre"
 let initialMessage = `**Réagir sur un message pour être membre**`;
 const roles = ["membre"];
