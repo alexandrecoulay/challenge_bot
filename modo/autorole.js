@@ -9,7 +9,7 @@ bot.on('ready', function () {
 
 
 
-const yourID = "308162523108999169";
+const yourID = "yourID";
 const setupCMD = "!rm"
 let initialMessage = `**Réagir sur un message pour avoir le rôle associé. Pour enlever le rôle, enlever la réaction du message associé au rôle**`;
 const roles = ["site web"];
