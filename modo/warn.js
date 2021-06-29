@@ -20,7 +20,7 @@ bot.on('message', function(message) {
         if(user.hasPermission('BAN_MEMBERS')) return message.react("❌");
     let raison = args.join(" ").slice(22);
         if(!raison) return message.reply("Mettre une raison.");
-    if(user.id === "308162523108999169") return message.reply("C'est le boss donc impossible à warn.");
+    if(user.id === "yourID") return message.reply("C'est le boss donc impossible à warn.");
     if (!warn[user.id]) {
             warn[user.id] = {
                 warn: 0
