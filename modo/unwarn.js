@@ -19,7 +19,7 @@ bot.on('message', function(message) {
         if(!user) return message.reply("Mentionner une personne à unwarn.");
     let raison = args.join(" ").slice(22);
         if(!raison) return message.reply("Mettre une raison.");
-        if(user.id === "308162523108999169") return message.reply("Suce boule ...");
+        if(user.id === "yourID") return message.reply("Suce boule ...");
         
     if (!warn[user.id]) {
             warn[user.id] = {
